@@ -47,7 +47,7 @@ letter-spacing: 0.02em;
 color: var(--grey);
 }
 
-.header-logo {
+.web-logo {
 font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -207,19 +207,6 @@ color: var(--slate);
 /* Footer */
 .footer {
 background-color: var(--navy-blue);
-}
-.logo-footer {
-font-family: "Raleway", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-line-height: 1.17;
-text-transform: uppercase;
-color: var(--iris);
 }
 .studio-color {
 font-family: "Raleway", sans-serif;
