@@ -24,22 +24,19 @@ background-color: var(--white);
 .adress-link {
 color: var(--slate);
 }
-.link:hover, .link:focus {color: var(--ocean); cursor: pointer}
+.links:hover, .links:focus {color: var(--ocean); cursor: pointer}
 
 .list {list-style: none;
 }
 .adress {
-font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
 .header-links{
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -49,10 +46,8 @@ color: var(--grey);
 
 .web-logo {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
 display: flex;
 align-items: center;
 line-height: 1.17;
@@ -62,10 +57,9 @@ color: var(--iris);
 }
 .head-studio {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.3;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -79,23 +73,19 @@ color: var(--navy-blue);
 background-color: var(--grey);
 }
 .first-title {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
 text-align: center;
 letter-spacing: 0.02em;
 line-height: 1.07;
 color: var(--white);
 }
 .order-button {
-background-color: var(--iris);
 font-family: "Roboto", sans-serif;
-font-style: normal;
+background-color: var(--iris);
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
@@ -109,31 +99,24 @@ cursor: pointer;
 .hidden-title {
 }
 .cards-title {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 .std-paragraph {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
 }
 .thrid-sections {
 }
 .second-title {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
 text-align: center;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -143,11 +126,8 @@ color: var(--navy-blue);
 .four-sections {background-color: var(--cloud);
 }
 .thrid-title {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
@@ -167,10 +147,8 @@ background-color: var(--white);
 }
 .filter-button {
 font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
 display: flex;
 align-items: center;
 text-align: center;
@@ -183,21 +161,15 @@ cursor: pointer;
 .filter-button:hover, .filter-button:focus {background-color: var(--ocean); color: var(--white);}
 
 .description {
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
 letter-spacing: 0.02em;
 line-height: 1.2;
 color: var(--navy-blue);
 }
 .prtf-paragraph{
-font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
 letter-spacing: 0.02em;
 line-height: 1.5;
 color: var(--slate);
@@ -205,15 +177,16 @@ color: var(--slate);
 
 
 /* Footer */
+.foter-paragraph {
+color: var(--cloud);
+}
 .footer {
 background-color: var(--navy-blue);
 }
 .studio-color {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
