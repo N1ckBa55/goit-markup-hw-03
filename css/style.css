@@ -194,12 +194,14 @@ color: var(--slate);
 
 
 /* Footer */
+.footer {
+background-color: var(--navy-blue);
+padding: 100px 1020px 100px 156px;
+}
 .foter-paragraph {
 color: var(--cloud);
 }
-.footer {
-background-color: var(--navy-blue);
-}
+.footer-logo {margin-bottom: 16px; width: 264px;}
 .studio-color {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
