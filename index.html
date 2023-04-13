@@ -22,26 +22,26 @@
 <body class="body">
 
     <!-- Header -->
-    <header>
-
-        <nav>
-
-
+    <header class="header">
+        <!-- Navigation -->
+        
+        <nav class="nav-style">
             <a href="./index.html" class="link web-logo">Web<span class="head-studio">Studio</span></a>
 
-            <ul class="list">
+            <ul class="list link-style">
                 <li> <a href="./index.html" class="header-links link links"> Studio </a> </li>
                 <li> <a href="./portfolio.html" class="header-links link links"> Portfolio </a> </li>
                 <li> <a href="" class="header-links link links"> Contacts </a> </li>
             </ul>
         </nav>
-
+        <!-- Adress -->
         <address class="adress">
-            <ul class="list">
+            <ul class="list adress-style">
                 <li><a href="mailto:info@devstudio.com" class="link adress-link links">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="link adress-link links">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        
     </header>
 
 
@@ -57,7 +57,7 @@
         <!-- Section 1 -->
         <section class="second-sections">
             <h2 hidden class="hidden-title">Features</h2>
-            <ul class="list">
+            <ul class="list flex-features">
                 <!-- Feature 1 -->
                 <li class="title-list">
                     <h3 class="cards-title">Strategy</h3>
@@ -91,11 +91,13 @@
         <section class="thrid-sections">
             <h2 class="second-title">What are we doing</h2>
             <ul class="list">
-                <li><img src="./images/img1.jpg" alt="Monitor info" width="360" height="300"></li>
+                <div class="studio-image">
+                    <li><img src="./images/img1.jpg" alt="Monitor info" width="360" height="300"></li>
 
-                <li><img src="./images/img2.jpg" alt="Phone screen" width="360" height="300"></li>
+                    <li><img src="./images/img2.jpg" alt="Phone screen" width="360" height="300"></li>
 
-                <li><img src="./images/img3.jpg" alt="Notebook and phone screen" width="360" height="300"></li>
+                    <li><img src="./images/img3.jpg" alt="Notebook and phone screen" width="360" height="300"></li>
+                </div>
             </ul>
 
         </section>
@@ -104,35 +106,37 @@
         <!-- Section 3 -->
         <section class="four-sections">
             <h2 class="thrid-title">Our Team</h2>
-            <ul class="list">
-                <li class="team-list">
-                    <div>
-                        <img src="./images/img0.jpg" alt="Mark Guerrero" width="264" height="260">
-
+            <ul class="list team-list-container">
+                <li class="team-list team-container">
+                    <img src="./images/img0.jpg" alt="Mark Guerrero" width="264" height="260">
+                    <div class="descr-photo">
                         <h3 class="photo-title">Mark Guerrero</h3>
                         <p class="std-paragraph photo-text">Product Designer</p>
                     </div>
                 </li>
-                <li class="team-list">
+                <li class="team-list team-container">
                     <img src="./images/img(1).jpg" alt="Monitor info" width="264" height="260">
-
-                    <h3 class="photo-title">Tom Ford</h3>
-                    <p class="std-paragraph photo-text">Frontend Developer</p>
-
+                    <div class="descr-photo">
+                        <h3 class="photo-title">Tom Ford</h3>
+                        <p class="std-paragraph photo-text">Frontend Developer</p>
+                    </div>
                 </li>
-                <li class="team-list">
+                <li class="team-list team-container">
                     <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" height="260">
-
-                    <h3 class="photo-title">Camila Garcia</h3>
-                    <p class="std-paragraph photo-text">Marketing</p>
-
+                    <div class="descr-photo">
+                        <h3 class="photo-title">Camila Garcia</h3>
+                        <p class="std-paragraph photo-text">Marketing</p>
+                    </div>
                 </li>
-                <li class="team-list">
-
+                
+                <li class="team-list team-container">
                     <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" height="260">
-                    <h3 class="photo-title">Daniel Wilson</h3>
-                    <p class="std-paragraph photo-text">UI Designer</p>
+                    <div class="descr-photo">
+                        <h3 class="photo-title">Daniel Wilson</h3>
+                        <p class="std-paragraph photo-text">UI Designer</p>
+                    </div>
                 </li>
+                
             </ul>
         </section>
 
@@ -144,7 +148,7 @@
 
     <footer class="footer">
         <div class="footer-logo">
-            <a href="./index.html" class="link web-logo">Web<span class="studio-color">Studio</span></a>
+            <a href="./index.html" class="link web-logo logo-pad">Web<span class="studio-color">Studio</span></a>
             <p class="foter-paragraph">Increase the flow of customers and sales for your business with digital marketing
                 &#38; growth solutions.</p>
         </div>
