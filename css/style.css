@@ -373,6 +373,7 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 padding: 32px 16px;
+border-top: none; 
 border: 1px solid #e7e9fc;
 }
 .prtf-card-list{
