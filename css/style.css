@@ -296,6 +296,7 @@ border-radius: 0px 0px 4px 4px;
 
 
 .portfolio-sections {
+padding: 96px 0 120px
 }
 .prtf-hidden-title {
 }
@@ -324,7 +325,11 @@ align-items: center;
 padding: 12px 24px;
 }
 
-.filter-button:hover, .filter-button:focus {background-color: var(--ocean); color: var(--white);}
+.filter-button:hover, .filter-button:focus {
+background-color: var(--ocean);
+color: var(--white);
+border: 1px solid transparent;
+}
 
 /* Flex button elements */
 
@@ -333,8 +338,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 24px;
-padding-top: 96px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 /* Links sections */
@@ -375,7 +379,6 @@ display: flex;
 flex-wrap: wrap;
 /* width: calc(100% - (24px * 2) / 3); */
 gap: 48px 24px;
-padding-bottom: 120px;
 }
 
 /* Footer */
