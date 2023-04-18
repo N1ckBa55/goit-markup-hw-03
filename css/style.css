@@ -60,6 +60,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
+}
+.logo{
 margin-right: 76px;
 }
 
@@ -75,6 +77,8 @@ color: var(--navy-blue);
 
 /* Navigation */
 .heder-nav{
+display: flex;
+align-items: center;
 margin-right: auto;
 }
 
@@ -87,9 +91,6 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
-.adress-link{
-margin-right: 40px;
-}
 
 .adress {
 font-style: normal;
@@ -114,8 +115,9 @@ color: var(--grey);
 .header-container, .contact-head-list{
 display: flex;
 align-items: center;
+gap: 40px;
 }
-.head-nav-link{
+.head-nav-links{
 display: flex;
 align-items: center;
 gap: 40px;
