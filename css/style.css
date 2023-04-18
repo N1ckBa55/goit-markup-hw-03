@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p {margin: 0;}
 a {text-decoration: none;
 color: currentColor;}
 ul {margin: 0; padding: 0; list-style: none;}
-img {display: block;}
+img {display: block; max-width: 100%; height: auto;}
 button {cursor: pointer; color: currentColor;}
 li:last-child {margin-bottom: 0;}
 .list {list-style: none; padding: 0; margin: 0;
@@ -41,8 +41,15 @@ padding-left: 15px;
 padding-right: 15px;
 }
 
+.sections{
+padding: 120px 0;
+}
+
 /* Header */
 
+.header{
+border-bottom: 1px solid #E7E9FC;
+}
 /* logo */
 
 .web-logo {
@@ -121,9 +128,7 @@ gap: 40px;
 /* Hero image */
 .first-sections {
 background-color: var(--grey);
-padding-top: 188px;
-padding-bottom: 188px;
-margin-bottom: 120px;
+padding: 188px 0;
 
 }
 .first-title {
@@ -162,7 +167,6 @@ min-height: 56px;
 
 /* Section 1 */
 .second-sections {
-margin-bottom: 120px;
 }
 
 .hidden-title {
@@ -193,13 +197,14 @@ color: var(--slate);
 .flex-features{
 display: flex;
 justify-content: center;
+align-items: center;
 flex-direction: row;
 gap: 24px;
 }
 
 /* Section 2 */
 .thrid-sections {
-margin-bottom: 120px;
+padding-bottom: 120px;
 }
 
 .second-title {
@@ -217,13 +222,13 @@ margin-bottom: 72px;
 .studio-image{
 display: flex;
 justify-content: center;
+align-items: center;
 gap: 24px;
 }
 
 /* Section 3 */
 .four-sections {
 background-color: var(--cloud);
-padding: 120px 0;
 }
 
 .thrid-title {
@@ -256,11 +261,13 @@ background-color: var(--white);
 }
 
 /* Flex elements section 3*/
-.team-list-container{display: flex;
+.team-list-container {
+display: flex;
 justify-content: center;
+align-items: center;
 gap: 24px;}
 
-.team-container {
+.team-item-container {
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -276,10 +283,13 @@ border-radius: 0px 0px 4px 4px;
 
 /* Portfolio */
 
+
 .portfolio-sections {
 }
 .prtf-hidden-title {
 }
+
+/* Buttons sections */
 
 .filter-button {
 font-family: "Roboto", sans-serif;
@@ -295,7 +305,28 @@ border: 1px solid #E7E9FC;
 border-radius: 4px;
 }
 
+.btns{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+}
+
 .filter-button:hover, .filter-button:focus {background-color: var(--ocean); color: var(--white);}
+
+/* Flex button elements */
+
+.filter-button-list{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+padding-top: 96px;
+padding-bottom: 72px;
+}
+
+/* Links sections */
 
 .description {
 font-weight: 500;
@@ -313,6 +344,28 @@ line-height: 1.5;
 color: var(--slate);
 }
 
+.prtf-card-item {
+border: 1px solid #E7E9FC;
+width: 360px;
+}
+
+/* Flex card content */
+
+.prtf-card-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 16px;
+gap: 8px;
+}
+.prtf-card-list{
+display: flex;
+flex-wrap: wrap;
+/* width: calc(100% - (24px * 2) / 3); */
+gap: 48px 24px;
+padding-bottom: 120px;
+}
 
 /* Footer */
 .footer {
