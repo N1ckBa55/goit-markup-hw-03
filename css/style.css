@@ -143,6 +143,7 @@ color: var(--white);
 width: 496px;
 margin: 0 auto;
 margin-bottom: 48px;
+max-width: 496px;
 }
  /* Order button */
 .order-button {
@@ -151,19 +152,24 @@ background-color: var(--iris);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
 color: var(--white);
 cursor: pointer;
 margin: 0 auto;
+}
+
+.btn{
+gap: 10px;
+align-items: center;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
 border-radius: 4px; 
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
 padding: 16px 32px;
-gap: 10px;
-min-width: 169px;
-min-height: 56px;
 }
+
 .order-button:hover, .order-button:focus {background-color: var(--ocean);}
 
 
@@ -221,11 +227,14 @@ margin-bottom: 72px;
 }
 
 /* flex elements section 2*/
-.studio-image{
+.studio-image-list{
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 24px;
+}
+.studio-image{
+width: calc((100% - 48px) / 3);
 }
 
 /* Section 3 */
@@ -241,7 +250,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--navy-blue);
-margin-bottom: 76px;
+margin-bottom: 72px;
 }
 
 .photo-title{
@@ -281,7 +290,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 border-radius: 0px 0px 4px 4px;
 }
 
-.descr-photo{width: 234px; gap: 8px;}
+.descr-photo{width: 234px;  padding: 32px 16px;}
 
 /* Portfolio */
 
@@ -375,11 +384,12 @@ background-color: var(--navy-blue);
 }
 
 .footer-container{
-padding: 100px 1020px 100px 156px;
+padding: 100px 0;
 }
 
 .foter-paragraph {
 color: var(--cloud);
+max-width: 264px;
 }
 
 .footer-logo {
@@ -387,6 +397,7 @@ width: 264px;
 }
 
 .logo-pad {
+display: inline-block;
 margin-bottom: 16px;
 }
 
