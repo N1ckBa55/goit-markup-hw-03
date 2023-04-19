@@ -382,12 +382,9 @@ padding: 100px 0;
 }
 
 
-.footer-container{
-max-width: 264px;
-}
-
 .foter-paragraph {
 color: var(--cloud);
+max-width: 264px;
 
 }
 
